@@ -51,8 +51,7 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. [Peichen Li](peichen3@illinois.edu)
 
 ## Version History
 
