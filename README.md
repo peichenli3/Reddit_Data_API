@@ -21,19 +21,11 @@ In the end, I would convert the data into pickle format to make your NLP analysi
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 * [Google Colab](https://colab.research.google.com/). (I run my webscraping scripts on this platform.)
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 * First, run the script **WSB_scrape.py** on your notebook of Google colab. This might take some time (1 month data ~ 40min). You can modify the parameters *max_created_utc*, *type* and *subreddit*. Parameter *max_created_utc* is for time-frame and *type* can be submissions (posts) or commments. This script is mostly recplicated from [this blog](https://www.osrsbox.com/blog/2019/03/18/watercooler-scraping-an-entire-subreddit-2007scape/).
 ```
 max_created_utc = 1606802400  # 12/01/2021 @ 12:00am (UTC)
