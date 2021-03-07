@@ -51,7 +51,7 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Peichen Li
+ex. Peichen Li  
 ex. peichen3@illinois.edu
 
 ## Version History
