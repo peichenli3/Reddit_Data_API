@@ -32,7 +32,7 @@ max_created_utc = 1606802400  # 12/01/2021 @ 12:00am (UTC)
 
 extract_reddit_data(subreddit="wallstreetbets", type="submission")
 ```
-* Second, clean the data. Now after running the scraping script, the size of your JSON data can be up to ~2GB. We are interested in values with keys of: *created_utc*, *num_comments*, *title* and *selftext*. You may explore parameters of Pushshift API [here](https://pushshift.io/). Run script **WSB_construction** and you will get your pickle data called *reddit_df_pickle.pkl*. Notice that I merge column *title* into column *selftext*.
+* Second, clean the data. Now after running the scraping script, the size of your JSON data can be up to ~2GB. We are interested in values with keys of: *created_utc*, *num_comments*, *title* and *selftext*. You may explore parameters of Pushshift API [here](https://pushshift.io/). Run script **WSB_construction.py** and you will get your pickle data called *reddit_df_pickle.pkl*. Notice that I merge column *title* into column *selftext*.
 
 * Now you can start your NLP project. Happy scraping!
 ```
