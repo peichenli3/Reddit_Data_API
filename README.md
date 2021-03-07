@@ -23,6 +23,7 @@ In the end, I would convert the data into pickle format to make your NLP analysi
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
+* [Google Colab](https://colab.research.google.com/). (I run my webscraping scripts on this platform.)
 
 ### Installing
 
@@ -33,13 +34,23 @@ In the end, I would convert the data into pickle format to make your NLP analysi
 
 * How to run the program
 * Step-by-step bullets
+* First, run the script **WSB_scrape.py** on your notebook of Google colab. This might take some time (1 month data ~ 40min). You can modify the parameters *max_created_utc*, *type* and *subreddit*. Parameter *max_created_utc* is for time-frame and *type* can be submissions (posts) or commments. This script is mostly recplicated from [this blog](https://www.osrsbox.com/blog/2019/03/18/watercooler-scraping-an-entire-subreddit-2007scape/).
 ```
-code blocks for commands
-```
+max_created_utc = 1606802400  # 12/01/2021 @ 12:00am (UTC)
 
+extract_reddit_data(subreddit="wallstreetbets", type="submission")
+```
+* Second, clean the data. Now after running the scraping script, the size of your JSON data can be up to ~2GB. We are interested in values with keys of: *created_utc*, *num_comments*, *title* and *selftext*. You may explore parameters of Pushshift API [here](https://pushshift.io/). Run script **WSB_construction** and you will get your pickle data called *reddit_df_pickle.pkl*. Notice that I merge column *title* into column *selftext*.
+
+* Now you can start your NLP project. Happy scraping!
+```
+    # Save to pickle
+    df = pd.DataFrame(Final_result)
+    df.to_pickle('reddit_df_pickle.pkl')
+```
 ## Help
 
-Any advise for common problems or issues.
+Any advise for common problems or issues. To be continued....
 ```
 command to run if program contains helper info
 ```
@@ -61,13 +72,9 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [Peichen Li] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+
