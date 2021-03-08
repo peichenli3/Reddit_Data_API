@@ -4,7 +4,8 @@ If you want to know about short selling, short sqeeze, GameStop and subreddit Wa
 Personally I find it quite enjoyable. Now back to our story. Technology breakthrough in the recent years is quite fascinating. It enpowers researchers in finance/econ great tools to analyze unstructured data.
 Tools in natural language process area has made it rewarding for finance researchers to analysze its hidden information. You may wonder why text data can be of our interest? Well, right after [the speech](https://www.wsj.com/articles/feds-powell-to-take-questions-on-job-market-interest-rates-bond-yields-11614872817) given by Fed Chairman Jerome Powell on 03/04/2021, you can notice the big move of market.
 What if we can analyze his speech text and do a series of analysis? That could be interesting! And this kind of textual analysis is not uncommon in finance currently. See related [paper1](https://github.com/MS20190155/Measuring-Corporate-Culture-Using-Machine-Learning),
-[paper2](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3286887). For paper 1 in particular, it mainly uses Stanford NLP package [Stanza](https://stanfordnlp.github.io/stanza/index.html). I believe up to now it has been merged into [spaCy](https://spacy.io/universe/project/spacy-stanza) for easier use.
+[paper2](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3286887). Also check [Prof. Manela's webpage](http://apps.olin.wustl.edu/faculty/manela/), as I find he's also working on projects related with NLP/text, ML and fintech.
+For paper 1 in particular, it mainly uses Stanford NLP package [Stanza](https://stanfordnlp.github.io/stanza/index.html). I believe up to now it has been merged into [spaCy](https://spacy.io/universe/project/spacy-stanza) for easier use.
 Now suppose you have the ideal statistical tools for textual analysis. What text data can be used? Paper 1 uses firm earning call transcripts while paper 2 utilizes patent documents.
 
 ## Description
