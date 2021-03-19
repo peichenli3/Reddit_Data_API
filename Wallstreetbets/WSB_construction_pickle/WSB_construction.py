@@ -7,6 +7,7 @@ def parse_reddit_json():
     json_List = []
     f = open("submissions_20210101ToCurrent.json")
     lines = f.readlines()
+    f.close()
     for line in lines:
         try:
             json_List.append(json.loads(line))
@@ -25,7 +26,6 @@ def parse_reddit_json():
     # Save to pickle
     df = pd.DataFrame(Final_result)
     df.to_pickle('reddit_df_pickle.pkl')
-    f.close()
     return 1
 
 
