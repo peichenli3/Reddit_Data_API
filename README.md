@@ -45,7 +45,7 @@ extract_reddit_data(subreddit="wallstreetbets", type="submission")
 
 Contributors names and contact info
 
-ex. Peichen Li  
+ex. Peichen (Kevin) Li  
 ex. peichen3@illinois.edu
 
 
@@ -61,8 +61,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Peichen Li  
-ex. peichen3@illinois.edu
+Peichen Li  
+peichen3@illinois.edu
 
 ## Version History
 
