@@ -45,8 +45,8 @@ extract_reddit_data(subreddit="wallstreetbets", type="submission")
 
 Contributors names and contact info
 
-ex. Peichen (Kevin) Li  
-ex. peichen3@illinois.edu
+Peichen (Kevin) Li  
+peichen3@illinois.edu
 
 
 <!---
