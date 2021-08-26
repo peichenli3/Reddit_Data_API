@@ -40,7 +40,9 @@ extract_reddit_data(subreddit="wallstreetbets", type="submission")
     # Save to pickle
     df = pd.DataFrame(Final_result)
     df.to_pickle('reddit_df_pickle.pkl')
-```
+```  
+
+<!---
 ## Help
 
 Any advise for common problems or issues. To be continued....
@@ -71,3 +73,4 @@ This project is licensed under the [Peichen Li] License - see the LICENSE.md fil
 
 Inspiration, code snippets, etc.
 
+-->
