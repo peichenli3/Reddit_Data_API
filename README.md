@@ -41,6 +41,13 @@ extract_reddit_data(subreddit="wallstreetbets", type="submission")
     df = pd.DataFrame(Final_result)
     df.to_pickle('reddit_df_pickle.pkl')
 ```  
+## Authors
+
+Contributors names and contact info
+
+ex. Peichen Li  
+ex. peichen3@illinois.edu
+
 
 <!---
 ## Help
