@@ -1,4 +1,4 @@
-# Reddit WSB Webscraping
+# Reddit r/wallstreetbets Webscraping
 
 If you want to know about short selling, short sqeeze, GameStop and subreddit WallStreetBets, You probably want to read [this WSJ article](https://www.gq.com.au/success/finance/your-guide-to-gamestop-rwallstreetbets-and-the-short-squeeze-that-has-wall-st-in-chaos/news-story/46e90e8b16744794bfaadd5089afcc15).
 Personally I find it quite enjoyable. Now back to our story. Technology breakthrough in the recent years is quite fascinating. It enpowers researchers in finance/econ great tools to analyze unstructured data.
