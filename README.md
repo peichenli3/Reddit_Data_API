@@ -60,8 +60,6 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
 Peichen Li  
 
 peichen3@illinois.edu
